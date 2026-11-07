@@ -1,0 +1,19 @@
+{
+  "Rows": [
+    {
+      "LocalizationID": "ui_title_startbutton",
+      "Japanese": "始める",
+      "English": "Start"
+    },
+    {
+      "LocalizationID": "ui_title_optionbutton",
+      "Japanese": "オプション",
+      "English": "Option"
+    },
+    {
+      "LocalizationID": "ui_title_quitbutton",
+      "Japanese": "やめる",
+      "English": "Quit"
+    }
+  ]
+}

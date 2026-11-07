@@ -3,22 +3,26 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Boot : MonoBehaviour
+
+namespace Base
 {
-    [SerializeField] private string _loadTitleSceneName = "Title";
-
-    private async void Awake()
+    public class Boot : MonoBehaviour
     {
-        await Booting();
+        [SerializeField] private string _loadTitleSceneName = "Title";
 
-        if (this != null)
+        private async void Awake()
         {
-            SceneManager.LoadScene(_loadTitleSceneName);
-        }
-    }
+            await Booting();
 
-    public UniTask Booting()
-    {
-        return UniTask.CompletedTask;
+            if (this != null)
+            {
+                SceneManager.LoadScene(_loadTitleSceneName);
+            }
+        }
+
+        public UniTask Booting()
+        {
+            return UniTask.CompletedTask;
+        }
     }
 }

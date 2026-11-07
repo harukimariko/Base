@@ -23,6 +23,13 @@
       "dependencies": {},
       "hash": "4a2d9c8e6a4f0fa50ecb24ec2d14ae588b1951da"
     },
+    "com.github.messagepack-csharp": {
+      "version": "https://github.com/MessagePack-CSharp/MessagePack-CSharp.git?path=src/MessagePack.UnityClient/Assets/Scripts/MessagePack#v3.1.12",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "eb108f89700db93e67f10148b777380c244ac6ae"
+    },
     "com.unity.2d.animation": {
       "version": "16.0.0",
       "depth": 0,
@@ -266,7 +273,7 @@
     },
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.2.2",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

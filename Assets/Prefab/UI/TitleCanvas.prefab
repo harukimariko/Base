@@ -253,6 +253,7 @@ GameObject:
   - component: {fileID: 6592026586058453553}
   - component: {fileID: 5461984563117553616}
   - component: {fileID: 8259519966164001213}
+  - component: {fileID: 2890912159615008578}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -307,10 +308,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quit
+  m_text: ui_title_quitbutton
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6aaaafa3bdf59b140a141e80a2ae0c3f, type: 2}
+  m_sharedMaterial: {fileID: 7908642335893989628, guid: 6aaaafa3bdf59b140a141e80a2ae0c3f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -337,9 +338,9 @@ MonoBehaviour:
   m_fontSize: 62.6
   m_fontSizeBase: 62.6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 62.6
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -373,12 +374,24 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 8, y: 4, z: 8, w: 4}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2890912159615008578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2773585233677787959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f5005176efce144826905a5474ee68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Base.LocalizationText
 --- !u!1 &3427866698629334607
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +629,7 @@ GameObject:
   - component: {fileID: 8606940443712151261}
   - component: {fileID: 7399449442663580191}
   - component: {fileID: 1373718763032664166}
+  - component: {fileID: 2130718579444966487}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -670,10 +684,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Option
+  m_text: ui_title_optionbutton
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6aaaafa3bdf59b140a141e80a2ae0c3f, type: 2}
+  m_sharedMaterial: {fileID: 7908642335893989628, guid: 6aaaafa3bdf59b140a141e80a2ae0c3f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -700,9 +714,9 @@ MonoBehaviour:
   m_fontSize: 62.6
   m_fontSizeBase: 62.6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 62.6
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -736,12 +750,24 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 8, y: 4, z: 8, w: 4}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2130718579444966487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8141950830617956326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f5005176efce144826905a5474ee68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Base.LocalizationText
 --- !u!1 &8488583229286285612
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +779,7 @@ GameObject:
   - component: {fileID: 167710893385825269}
   - component: {fileID: 6405865704833295674}
   - component: {fileID: 3142489391318347238}
+  - component: {fileID: 8337222718686691859}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -807,10 +834,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: ui_title_startbutton
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6aaaafa3bdf59b140a141e80a2ae0c3f, type: 2}
+  m_sharedMaterial: {fileID: 7908642335893989628, guid: 6aaaafa3bdf59b140a141e80a2ae0c3f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -837,9 +864,9 @@ MonoBehaviour:
   m_fontSize: 62.6
   m_fontSizeBase: 62.6
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 0
-  m_fontSizeMax: 0
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 24
+  m_fontSizeMax: 62.6
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -873,9 +900,21 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 8, y: 4, z: 8, w: 4}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8337222718686691859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8488583229286285612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f5005176efce144826905a5474ee68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Base.LocalizationText

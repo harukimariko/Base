@@ -3,18 +3,22 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+
+namespace Base
 {
-    private string loadStartSceneName = "FirstStep";
-
-    private async void Awake()
+    public class GameManager : MonoBehaviour
     {
-        SceneManager.LoadScene(loadStartSceneName, LoadSceneMode.Additive);
-        await Entry();
-    }
+        private string loadStartSceneName = "FirstStep";
 
-    private UniTask Entry()
-    {
-        return UniTask.CompletedTask;
+        private async void Awake()
+        {
+            SceneManager.LoadScene(loadStartSceneName, LoadSceneMode.Additive);
+            await Entry();
+        }
+
+        private UniTask Entry()
+        {
+            return UniTask.CompletedTask;
+        }
     }
 }
